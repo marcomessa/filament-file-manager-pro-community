@@ -2,7 +2,7 @@
 
 The premium edition of [Filament File Manager](https://github.com/marcomessa/filament-file-manager) — everything in the free version, plus remote disks, multi-disk switching, and more.
 
-![Filament File Manager PRO](https://raw.githubusercontent.com/marcomessa/filament-file-manager/main/art/screenshot.png)
+![Filament File Manager PRO](https://raw.githubusercontent.com/marcomessa/filament-file-manager-pro/main/art/screenshot.png)
 
 ## PRO Features
 
