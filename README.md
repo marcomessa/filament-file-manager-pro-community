@@ -22,42 +22,6 @@ Everything in the free version, plus:
 - Filament 5+
 - A valid license from [mmes.dev](https://mmes.dev/products/filament-file-manager)
 
-## Installation
-
-Add the Satis repository to your `composer.json`:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://satis.mmes.dev"
-        }
-    ]
-}
-```
-
-Then install:
-
-```bash
-composer require mmes-design/filament-file-manager-pro
-```
-
-When prompted, use your license key as the password (leave the username blank).
-
-Register the plugin in your panel provider:
-
-```php
-use MmesDesign\FilamentFileManager\FileManagerPlugin;
-
-public function panel(Panel $panel): Panel
-{
-    return $panel
-        ->plugins([
-            FileManagerPlugin::make(),
-        ]);
-}
-```
 
 ## Documentation
 
